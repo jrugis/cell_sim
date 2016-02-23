@@ -1,0 +1,6 @@
+*.o
+*.bin
+*.out
+cs.txt
+cell_3d
+Makefile
