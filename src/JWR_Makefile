@@ -3,10 +3,10 @@
 # module load intel/2015a
 
 CPP = mpiicc
-CPP_FLAGS = -m64 -O3 -I/projects/nesi00119/code/JR_petsc/petsc-3.5.4/linux-intel/include -I/projects/nesi00119/code/JR_petsc/petsc-3.5.4/include -I/share/easybuild/RHEL6.3/sandybridge/software/Eigen/3.2.4-ictce-5.4.0/include -I/share/easybuild/RHEL6.3/sandybridge/software/Boost/1.55.0-goolf-1.5.14-Python-2.7.8/include
+CPP_FLAGS = -m64 -O3 -I/projects/nesi00119/code/JWR_petsc/petsc-3.5.4/linux-intel/include -I/projects/nesi00119/code/JWR_petsc/petsc-3.5.4/include -I/share/easybuild/RHEL6.3/sandybridge/software/Eigen/3.2.4-ictce-5.4.0/include -I/share/easybuild/RHEL6.3/sandybridge/software/Boost/1.55.0-goolf-1.5.14-Python-2.7.8/include
 
 LINK = $(CPP)
-LINK_FLAGS = -m64 -L/projects/nesi00119/code/JR_petsc/petsc-3.5.4/linux-intel/lib -lpetsc
+LINK_FLAGS = -m64 -L/projects/nesi00119/code/JWR_petsc/petsc-3.5.4/linux-intel/lib -lpetsc
 
 EXE = cell_3d
 OBJS = $(EXE).o cGeneric3dModel.o cCellMesh.o cPetscSolver.o
