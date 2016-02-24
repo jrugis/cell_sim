@@ -1,6 +1,9 @@
 *.o
 *.bin
 *.out
-cs.txt
+*.log
 cell_3d
 Makefile
+!c_REF.bin
+
+
